@@ -61,12 +61,14 @@ $ns duplex-link $n5 $n24 1Mb 20ms DropTail
 $ns duplex-link $n6 $n25 1Mb 20ms DropTail
 $ns duplex-link $n6 $n26 1Mb 20ms DropTail
 $ns duplex-link $n6 $n27 1Mb 20ms DropTail
+$ns duplex-link $n6 $n28 1Mb 20ms DropTail (Missing?)
 
+$ns duplex-link $n0 $n1 2Mb 40ms DropTail (Missing?)
 $ns duplex-link $n0 $n2 2Mb 40ms DropTail
 $ns duplex-link $n2 $n4 2Mb 40ms DropTail
 $ns duplex-link $n3 $n5 2Mb 40ms DropTail
-$ns duplex-link $n3 $n6 2Mb 40ms DropTail
-$ns duplex-link $n1 $n2 8Mb 50ms DropTail
+$ns duplex-link $n3 $n6 2Mb 40ms DropTail 
+$ns duplex-link $n1 $n2 8Mb 50ms DropTail (n1 does not connect to n2)
 $ns duplex-link $n1 $n3 8Mb 50ms DropTail
 $ns duplex-link $n2 $n3 8Mb 50ms DropTail
 
